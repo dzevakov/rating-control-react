@@ -1,0 +1,11 @@
+## the src folder
+src
+rollup.config.js
+
+## node modules folder
+node_modules
+
+package-lock.json
+
+.git
+.gitignore

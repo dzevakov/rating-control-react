@@ -1,1 +1,1 @@
-export * from './component'
+export { RatingControl } from "./component/RatingControl";

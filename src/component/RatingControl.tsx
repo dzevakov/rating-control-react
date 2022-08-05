@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import { BaseSyntheticEvent, useCallback, useState } from "react";
 
-function RatingControl({
+export function RatingControl({
   char = "★",
   charStyles,
   charsAmount = 5,
@@ -91,5 +91,3 @@ function RatingControl({
     </div>
   );
 }
-
-export default RatingControl;
