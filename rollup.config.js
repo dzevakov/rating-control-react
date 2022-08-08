@@ -12,13 +12,14 @@ export default [
     output: [
       {
         file: packageJson.main,
-        format: "cjs",
-        sourcemap: true,
-      },
-      {
-        file: packageJson.module,
-        format: "esm",
-        sourcemap: true,
+        format: "umd",
+        sourcemap: false,
+        name: "RatingControl",
+        globals: {
+          tslib: "tslib",
+          react: "react",
+          "@emotion/react": "@emotion/react",
+        },
       },
     ],
     plugins: [
