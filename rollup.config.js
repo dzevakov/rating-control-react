@@ -13,12 +13,12 @@ export default [
       {
         file: packageJson.main,
         format: "umd",
-        sourcemap: false,
+        sourcemap: true,
         name: "RatingControl",
         globals: {
-          tslib: "tslib",
-          react: "react",
-          "@emotion/react": "@emotion/react",
+          tslib: "Tslib",
+          react: "React",
+          "@emotion/react": "EmotionReact",
         },
       },
     ],
