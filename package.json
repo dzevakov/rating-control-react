@@ -1,5 +1,5 @@
 {
-  "name": "rating-control-react",
+  "name": "react-rating-control",
   "version": "1.0.0",
   "description": "React component for rating",
   "main": "dist/cjs/index.js",
